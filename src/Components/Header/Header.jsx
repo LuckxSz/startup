@@ -1,5 +1,5 @@
 import logo from '../../assets/figmaland.png';
-import { Button } from './Button';
+import { Button } from '../utils/Button';
 import { NavBar } from './NavBar';
 
 import { Image } from './Image';

@@ -1,4 +1,4 @@
-import { Button } from '../../Components/Header/Button'
+import { Button } from '../utils/Button'
 export const Hero = ({ mainText, subHeading }) => {
   return (
     <div className=" w-[402px] h-[452px] md:h-[350px] md:w-[630px]  flex flex-col justify-center m-auto items-center">
