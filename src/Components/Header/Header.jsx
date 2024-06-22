@@ -12,7 +12,7 @@ export const Header = () => {
           <img src={logo} alt="logo" className='h-[55px] md:h-[60px]' />
         </a>
         <NavBar />
-        <Button text="Login" width="100" />
+        <Button text="Login" border="1px solid white" width="100" />
         <Image />
       </div>
     </>

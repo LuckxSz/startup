@@ -11,6 +11,7 @@ export const App = () => {
 freelancers who want a simple way to plan their schedule." />
       <Features>
         <FHeader />
+
       </Features>
 
     </div>
