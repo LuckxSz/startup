@@ -6,6 +6,7 @@ export const Image = () => {
       className=" md:hidden w-16 mt-6 h-16 hover:rotate-90 hover:scale-110 transform transition duration-300 ease-in-out cursor-pointer"
       src={menu}
       alt="Menu Icon"
+
     />
   );
 };

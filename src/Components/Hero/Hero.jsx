@@ -9,7 +9,7 @@ export const Hero = ({ mainText, subHeading }) => {
         <span className=" mt-8 md:text-1xl  md:mt-5tracking-wide ">{subHeading}</span>
         <div className='flex flex-col sm:flex md:mr-0 sm:mr-48 md:flex-row md:gap-7'>
           <Button text='Try for Free' bgColor="#4452FE" width="160" />
-          <Button text="Learn More" bgColor="black" width='160' />
+          <Button text="Learn More" bgColor="black" width='160' border="1px solid white" />
         </div>
       </div>
       <div className='block md:justify-center md:m-auto  md:flex min-w-[550px]'>
