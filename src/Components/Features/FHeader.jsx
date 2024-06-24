@@ -27,30 +27,29 @@ export const FHeader = () => {
             a simple way to plan their schedule.</span>
 
         </div>
-        <div className='m-auto mt-9 shadow-gray-700 '>
+        <div className='m-auto md:mt-12 mt-5 md:flex '>
           <img className='flex md:hidden' src={featuresMobile} alt="" />
           <div className='hidden md:flex'>
             <img src={featuresMobileMD} alt="" />
           </div>
-        </div>
-
-      </div>
-
-      <ContentRows image={cutlery} title="A single source 
+          <div className='flex-col mt-60 w-[269px] h-[172px] flex justify-center m-auto '>
+            <ContentRows image={cutlery} title="A single source 
 of truth" text="When you add work to your 
 Slate calendar we automatically 
 calculate useful insights 
 " />
-      <ContentRows image={alien} title="Intuitive 
+            <ContentRows image={alien} title="Intuitive 
 interface" text="When you add work to your 
 Slate calendar we automatically 
 calculate useful insights 
 " />
-      <ContentRows image={infinity} title="Or with rules" text="When you add work to your 
+            <ContentRows image={infinity} title="Or with rules" text="When you add work to your 
 Slate calendar we automatically 
 calculate useful insights 
 " />
-
+          </div>
+        </div>
+      </div>
     </>
   )
 }

@@ -1,3 +1,4 @@
+import { Contents } from "./Components/Content/Contents"
 import { FHeader } from "./Components/Features/FHeader"
 import { Features } from "./Components/Features/Features"
 import { Header } from "./Components/Header/Header"
@@ -11,8 +12,10 @@ export const App = () => {
 freelancers who want a simple way to plan their schedule." />
       <Features>
         <FHeader />
+        <Contents title="Content" />
 
       </Features>
+
 
     </div>
   )
