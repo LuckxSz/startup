@@ -28,10 +28,10 @@ export const Photos = ({ text, content }) => {
           <img className='hidden md:block' src={dp7} alt="desktop-p7" />
         </div>
         <div className='flex flex-wrap justify-center flex-col  gap-y-7 md:hidden'>
-          <img className='block' src={p1} alt="photo1" />
-          <img className='block' src={p2} alt="photo2" />
-          <img className='block' src={p3} alt="photo3" />
-          <img className='block -mt-7' src={p4} alt="photo4" />
+          <img className='w-72  block' src={p1} alt="photo1" />
+          <img className='block w-72' src={p2} alt="photo2" />
+          <img className='block w-72' src={p3} alt="photo3" />
+          <img className='block w-72 -mt-7' src={p4} alt="photo4" />
         </div>
       </div>
       <button className="text-white border mt-14 p-3 px-6 rounded-sm hover:scale-105 duration-300 font-semibold h-[50px]">See more</button>

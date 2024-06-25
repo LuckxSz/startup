@@ -4,6 +4,7 @@ import { FHeader } from "./Components/Features/FHeader"
 import { Features } from "./Components/Features/Features"
 import { Header } from "./Components/Header/Header"
 import { Hero } from './Components/Hero/Hero'
+import { Partners } from "./Components/Partners/Partners"
 
 
 export const App = () => {
@@ -22,7 +23,7 @@ freelancers who want a simple way to plan their schedule." />
       <Photos text="Gallery" content="We focus on ergonomics and meeting
  you where you work. 
 It's only a keystroke away." />
-
+      <Partners />
     </div >
   )
 }

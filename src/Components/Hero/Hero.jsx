@@ -4,9 +4,9 @@ import { Button } from '../utils/Button'
 export const Hero = ({ mainText, subHeading }) => {
   return (
     <>
-      <div className=" w-[402px] h-[500px] md:h-[350px] md:w-[630px]  flex flex-col justify-center m-auto items-center">
+      <div className=" w-[402px] s  h-[500px] md:h-[350px] md:w-[630px]  flex flex-col justify-center m-auto items-center">
         <h1 className=" bg-gradient-to-r from-purple-400 via-pink-500 to-[#4452FE] bg-clip-text text-transparent  mt-14 text-center text-5xl  md:text-6xl">{mainText}</h1>
-        <span className=" mt-8 md:text-1xl  md:mt-5tracking-wide ">{subHeading}</span>
+        <span className=" mt-8 md:text-1xl  md:mt-5 tracking-wide ">{subHeading}</span>
         <div className='flex flex-col   sm:flex mt-5 md:mr-0 sm:mr-48 md:flex-row gap-4 md:gap-9'>
           <Button text='Try for Free' bgColor="#4452FE" width="160" />
           <Button text="Learn More" bgColor="black" width='160' border="1px solid white" />
