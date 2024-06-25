@@ -3,14 +3,12 @@ import featuresMobileMD from '../../assets/featuresMobileMD.png'
 import cutlery from '../../assets/cutlery.png'
 import alien from '../../assets/alien.png'
 import infinity from '../../assets/infinity.png'
-
-
 import { ContentRows } from './ContentRows'
+
 export const FHeader = () => {
   return (
     <>
-
-      <div className="text-white justify-center  flex m-auto flex-col mt-24 md:mt-44  ">
+      <div className="text-white justify-center flex m-auto flex-col mt-16 md:mt-44  ">
         <h1 className="text-5xl md:text-6xl w-30 m-auto uppercase bg-gradient-to-r from-purple-400 via-pink-500 to-[#4452FE] bg-clip-text text-transparent">
           Features
         </h1>
