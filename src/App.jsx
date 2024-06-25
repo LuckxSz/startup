@@ -15,21 +15,10 @@ export const App = () => {
 freelancers who want a simple way to plan their schedule." />
       <Features>
         <FHeader />
-
         <div className="mt-52 md:flex-row justify-center flex-col flex">
-          <Contents title="Contents" image={macBook} text="We focus on ergonomics and 
-meeting you where you work. 
-It's only a keystroke away." InsideTitle="Work" InsideText="Ever wondered if you're too reliant 
-on a client for work? Slate helps 
-you identify ."buttonPlaceHolder="Sign Up" />
-
+          <Contents />
         </div>
-
-
-
       </Features >
-
-
     </div >
   )
 }

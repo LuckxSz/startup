@@ -26,7 +26,7 @@ export const Contents = () => {
             <span className="text-[15px] p-7 px-12 text-[#5C5C5C]">Ever wondered if you are too reliant
               on a client for work? Slate helps
               you identify. </span>
-            <button className="bg-[#4452F4] mt-3 p-3 px-9 rounded-sm hover:scale-105 duration-300  font-semibold h-[50px]">Sign Up</button>
+            <button className="bg-[#4452F4] mt-3 p-3 px-9 rounded-sm hover:scale-105 duration-300  font-semibold h-[50px]">Try For Free</button>
             <img className='mt-10' src={boards} alt="" />
 
           </div>

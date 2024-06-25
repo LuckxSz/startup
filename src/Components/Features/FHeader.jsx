@@ -19,12 +19,7 @@ export const FHeader = () => {
             a simple way to plan their schedule.</span>
         </div>
 
-        <div className="w-[449px]  flex justify-center m-auto mt-4">
-          <span className=" text-1xl">Most calendars are designed for teams. <br />
-            Slate is designed for freelancers who want <br />
-            a simple way to plan their schedule.</span>
 
-        </div>
         <div className='m-auto md:mt-12 mt-5 md:flex '>
           <img className='flex md:hidden' src={featuresMobile} alt="" />
           <div className='hidden md:flex'>
