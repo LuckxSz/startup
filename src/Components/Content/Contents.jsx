@@ -17,7 +17,7 @@ export const Contents = () => {
               on a   client for work? Slate helps
               you identify .</span>
             <button className="bg-[#4452F4] mt-3 p-3 px-9 rounded-sm hover:scale-105 duration-300  font-semibold h-[50px]">Sign Up</button>
-            <img className='mt-20' src={computer} alt="" />
+            <img className='mt-20' src={computer} alt="computer" />
           </div>
         </div>
         <div className="mt-8 bg-white  rounded-md w-[380px] h-[580px]">
@@ -27,7 +27,7 @@ export const Contents = () => {
               on a client for work? Slate helps
               you identify. </span>
             <button className="bg-[#4452F4] mt-3 p-3 px-9 rounded-sm hover:scale-105 duration-300  font-semibold h-[50px]">Try For Free</button>
-            <img className='mt-10' src={boards} alt="" />
+            <img className='mt-10' src={boards} alt="boards" />
 
           </div>
 

@@ -21,9 +21,9 @@ export const FHeader = () => {
 
 
         <div className='m-auto md:mt-12 mt-5 md:flex '>
-          <img className='flex md:hidden' src={featuresMobile} alt="" />
+          <img className='flex md:hidden' src={featuresMobile} alt="Feature_mobile" />
           <div className='hidden md:flex'>
-            <img src={featuresMobileMD} alt="" />
+            <img src={featuresMobileMD} alt="Feature_Desktop" />
           </div>
           <div className='flex-col mt-60 w-[269px] h-[172px] flex justify-center m-auto '>
             <ContentRows image={cutlery} title="A single source 

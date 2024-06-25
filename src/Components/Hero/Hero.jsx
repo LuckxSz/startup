@@ -15,7 +15,7 @@ export const Hero = ({ mainText, subHeading }) => {
       <div className='flex justify-center md:justify-center md:m-auto md:flex min-w-[550px]'>
         <img className='w-auto max-w-full h-auto md:hidden mt-12' src={screens} alt="screen" />
 
-        <img className='hidden md:flex mt-14 md:justify-center max-w-full' src={screensMD} alt="" />
+        <img className='hidden md:flex mt-14 md:justify-center max-w-full' src={screensMD} alt="ScreenPhoto_Desktop" />
       </div>
     </>
   )
