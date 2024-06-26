@@ -23,7 +23,9 @@ freelancers who want a simple way to plan their schedule." />
       <Photos text="Gallery" content="We focus on ergonomics and meeting
  you where you work. 
 It's only a keystroke away." />
-      <Partners />
+      <Partners text="Partners" content="We focus on ergonomics
+      and meeting you where you work. 
+It's only a keystroke away." />
     </div >
   )
 }
