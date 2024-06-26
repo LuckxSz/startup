@@ -11,6 +11,7 @@ import wade from './assets/wade.png'
 import philip from './assets/philip.png'
 import arthur from './assets/arthur.png'
 import regina from './assets/regina.png'
+import { LContent } from "./Components/LContent/LContent"
 
 export const App = () => {
   return (
@@ -78,10 +79,9 @@ year.your financial
 goal for the month and year." />
             </div>
           </div>
-
         </div>
       </Testimonials >
-
+      <LContent />
 
     </ >
   )
