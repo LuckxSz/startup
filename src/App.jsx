@@ -12,6 +12,7 @@ import philip from './assets/philip.png'
 import arthur from './assets/arthur.png'
 import regina from './assets/regina.png'
 import { LContent } from "./Components/LContent/LContent"
+import { Footer } from "./Components/Footer/Footer"
 
 export const App = () => {
   return (
@@ -82,6 +83,7 @@ goal for the month and year." />
         </div>
       </Testimonials >
       <LContent />
+      <Footer />
 
     </ >
   )

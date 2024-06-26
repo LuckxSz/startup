@@ -8,7 +8,7 @@ export const LContent = () => {
   return (
     <div className="flex flex-col mt-24 text-center">
       <div className="md:flex items-center  md:flex-col ">
-        <h1 className="text-4xl w-[360px] h-[120px] m-auto ">OpenType
+        <h1 className="text-4xl w-[360px] h-[120px] m-auto bg-gradient-to-r from-purple-400 via-pink-500 to-[#4452FE] bg-clip-text text-transparent ">OpenType
           features and
           Variable fonts</h1>
         <div className="mt-8  font-semibold  ">
@@ -21,7 +21,7 @@ export const LContent = () => {
       <div className="hidden  md:flex md:flex-row m-auto mt-20 rounded-3xl bg-[#343434] w-[1290px] h-[350px] ">
         <div className="flex flex-row justify-center">
           <div className="flex flex-col justify-center ">
-            <h1 className="mt-24 text-[44px] w-[650px] h-[144px]">OpenType features
+            <h1 className="mt-24 text-[44px] w-[650px] h-[144px] ">OpenType features
               and Variable fonts</h1>
             <div className="m-12 mb-20">
               <Button width="190" bgColor="#4452FE" text="Try For Free" />
